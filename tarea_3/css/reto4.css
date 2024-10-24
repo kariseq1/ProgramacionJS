@@ -1,0 +1,41 @@
+header {
+  background-color: #c2ad74;
+}
+
+p {
+  font-size: 18px;
+}
+
+header img {
+  width: 80px;
+}
+
+input,
+select {
+  cursor: pointer;
+}
+
+.error {
+  border: #c2ad74 1px;
+}
+
+#btn-clean {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+#btn-clean:hover {
+  background-color: #0056b3;
+  transform: translateY(-6px);
+}
+
+footer {
+  background-color: #000;
+  font-size: 30px;
+  padding: 40px 40px;
+  margin-top: 100px;
+}

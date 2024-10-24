@@ -1,0 +1,27 @@
+header {
+  background-color: #0f47a1;
+}
+
+p {
+  font-size: 18px;
+}
+
+header img {
+  width: 80px;
+}
+
+input,
+select {
+  cursor: pointer;
+}
+
+.error {
+  border: red solid 1px;
+}
+
+footer {
+  background-color: #000;
+  font-size: 30px;
+  padding: 40px 40px;
+  margin-top: 100px;
+}

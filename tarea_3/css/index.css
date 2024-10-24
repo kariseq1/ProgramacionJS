@@ -1,0 +1,47 @@
+.full-width {
+  width: 100%;
+  box-sizing: border-box;
+  display: block;
+}
+
+.fondo {
+  background-color: rgb(254, 254, 254);
+}
+
+ul {
+  list-style: none;
+  padding: 10%;
+  margin: 0;
+}
+
+ul li {
+  margin-bottom: 25px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #020202;
+  font-size: 18px;
+}
+
+ul li a.boton {
+  background-color: #92a4e5;
+  color: #ffffff;
+  padding: 20px 40px;
+  border-radius: 35px;
+  transition: 0.3s;
+  display: inline-block;
+  text-align: center;
+  font-size: 20px;
+}
+
+ul li a.boton:hover {
+  background-color: #21b300;
+}
+
+footer {
+  background-color: #000;
+  font-size: 30px;
+  padding: 40px 40px;
+  margin-top: 100px;
+}

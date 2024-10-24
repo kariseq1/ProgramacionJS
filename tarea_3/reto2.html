@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RETO2</title>
+    <link href="img/favicon.png" rel="icon" />
+    <link rel="stylesheet" href="css/reto2.css" />
+  </head>
+  <body>
+    <h1>Conversor de Dólares-Colones</h1>
+
+    <div>
+      <h2>Dólares a Colones</h2>
+      <input type="number" id="dolares" placeholder="Monto en dólares" />
+      <input
+        type="number"
+        id="tipoCambioDolares"
+        placeholder="Tipo de cambio"
+      />
+      <button class="text-center" onclick="convertirADolares()">
+        Convertir a Colones
+      </button>
+      <p id="resultadoDolares"></p>
+    </div>
+
+    <div>
+      <h2>Colones a Dólares</h2>
+      <input type="number" id="colones" placeholder="Monto en colones" />
+      <input
+        type="number"
+        id="tipoCambioColones"
+        placeholder="Tipo de cambio"
+      />
+      <button class="text-center" onclick="convertirAColones()">
+        Convertir a Dólares
+      </button>
+      <p id="resultadoColones"></p>
+    </div>
+
+    <footer class="">
+      <p class="text-white text-center">Derechos Reservados</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.13/lottie.min.js"></script>
+
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@0.3.0/dist/lottie-player.js"></script>
+
+    <script src="js/reto2.js"></script>
+  </body>
+</html>
